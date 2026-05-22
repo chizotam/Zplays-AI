@@ -1,0 +1,6 @@
+{
+  "name": "zplays",
+  "description": "An affordable, AI-powered B2B SaaS mobile-first assistant for local boutique cafés and bakeries, managing content generation, operations automation, and intelligent customer smart-replies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

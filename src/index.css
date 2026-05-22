@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "Fira Code", monospace;
+
+  /* Custom palette colors styled specifically for Artistic Flair local coffee & bakeries */
+  --color-brand-cream: #FDFBF7;
+  --color-brand-cream-warm: #F5F1EA;
+  --color-brand-paper: #EAE3D5;
+  --color-brand-paper-dark: #E6D9CE;
+  --color-brand-terracotta: #D97757;
+  --color-brand-terracotta-dark: #B25334;
+  --color-brand-terracotta-light: #FCECE6;
+  --color-brand-charcoal: #2D2926;
+  --color-brand-wood: #4F433A;
+  --color-brand-emerald: #1F4236;
+  --color-brand-emerald-light: #EBF3F0;
+  --color-brand-sage: #8A9F95;
+}
+
+/* Custom scrollbar and minor global utility classes */
+html, body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-charcoal);
+  font-family: var(--font-sans);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-cream-warm);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-paper-dark);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-sage);
+}
